@@ -2,6 +2,8 @@
     box-sizing: border-box;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
+
 body {
     margin:0;
         font-family: 'Roboto', sans-serif;
@@ -15,8 +17,8 @@ body {
         height: 100px;
         justify-content: center;
         align-items: center;
-        position:fixed;
         width: 100%;
+        position: sticky;
     }
     
     
@@ -52,9 +54,8 @@ body {
     }
     
     .menu a:hover{
-        opacity: 0.6;
-        border: 1px solid black;
         border-radius: 15%;
+        background-color: #45C6F5;
     }
     .whats{
         position: fixed;
@@ -123,17 +124,121 @@ width: 120px;
 .artigo-4{
     justify-content: center;
 }
-.artigos4{
-    text-decoration: none;
-    height: 60px;
+.head{
     width: 100%;
+    height: 600px;
+    background-image: url(/water-4785991_1280\ \(2\).jpg);
+    background-size: cover;
     text-align: center;
-    font-size: xx-large;
-    margin-top: 10%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 100px;
+    border-top: none;
+    
+}
+.artigos4{
+    text-decoration: none; 
+    color: white;
+    font-size: x-large;
+letter-spacing: 2px;
+text-align: center;
+width: 100%;
+}
+.articleframe4{
+    width: 100%;
+    height: 800px;
+    overflow: scroll;
+}
+.artigo3{
+    text-decoration: none;
+    color: white;
+    font-size: x-large;
+    letter-spacing: 2px;
+    text-align: center;
+    width: 100%;
+
+}
+.articleframe3{
+    width: 100%;
+    height: 850px;
+    overflow: scroll;
+}
+.artigo33{
+    background-color: white;
+    color: black;
+}
+.link-artigo3{
+    color: white;
+    margin-left: 50%;
+     text-decoration: none;
+     padding: 20px;
+     transform: translate(-50%);
+     background-color: black;
+     border-radius: 15%;
+}
+.artigo22{
+    background-color: white;
+    color: #000;
+}
+.articleframe2{
+    width: 100%;
+    height: 250px;
+    overflow: scroll;
+}
+.artigo111{
+    background-color: white;
+    color: #000;
+}
+.artigos1{
+    text-decoration: none;
+    font-size: x-large;
+    letter-spacing: 2px;
+    width: 100%;
     color: white;
 }
-.artigos4 :hover{
-    opacity: 0.5;
-    border-top: 3px solid white;
-    color: #000;
+.articleframe1{
+ width: 100%;
+ height: 800px;
+ overflow: scroll;
+}
+.artigo2{
+    text-decoration: none;
+    font-size: x-large;
+    letter-spacing: 2px;
+    width: 100%;
+    color: white;
+}
+.articlebutton1{
+    color: white;
+    margin-left: 50%;
+    transform: translate(-50%);
+    text-decoration: none;
+    padding: 20px;
+    background-color: black;
+    border-radius: 15%;
+}
+.head-recentes{
+    background-image: url(/pexels-blaque-x-264516-932638\ \(2\).jpg);
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 100px;
+    border-top: none;
+}
+.articlerec44{
+    text-decoration: none;
+    font-size: x-large;
+    letter-spacing: 2px;
+    width: 100%;
+    color: white;
+}
+.articlerecframe1{
+    width: 100%;
+ height: 900px;
+ overflow: scroll;
 }
